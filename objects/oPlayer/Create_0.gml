@@ -1,0 +1,9 @@
+image_speed = 0;
+hspd = 0;
+vspd = 0;
+grv = 0.3;
+walkSpd = 2.5;
+hascontrol = true;
+jumpHeight = -7;
+inwaterjump = false;
+canJump = true
