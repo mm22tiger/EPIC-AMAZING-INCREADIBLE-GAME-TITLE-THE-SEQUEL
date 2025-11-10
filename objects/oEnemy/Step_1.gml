@@ -1,3 +1,4 @@
+//destroy active enemy object and replace it with the enemy death object when hp is lower than 0
 if (hp <= 0 )
 {
 	with (instance_create_layer(x,y,layer,oDead))
