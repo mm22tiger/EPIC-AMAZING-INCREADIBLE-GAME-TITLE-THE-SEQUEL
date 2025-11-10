@@ -1,5 +1,5 @@
 /// @desc Draw black bars
-
+// create the black bars for the transition effect.
 if (mode != TRANS_MODE.OFF)
 {
 	draw_set_color(c_black);
