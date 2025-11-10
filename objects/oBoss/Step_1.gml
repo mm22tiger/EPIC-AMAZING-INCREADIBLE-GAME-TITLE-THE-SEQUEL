@@ -1,3 +1,4 @@
+//replace the boss with the boss' death object when health is below 0.
 if (hp <= 0 )
 {
 	with (instance_create_layer(x,y,layer,oBOssDead))
