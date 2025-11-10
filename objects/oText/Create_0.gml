@@ -1,3 +1,4 @@
+// sets the variables for the sign text.
 spd = 0.25;
 letters = 0;
 text = "This is a test string!\nSecond line!";
