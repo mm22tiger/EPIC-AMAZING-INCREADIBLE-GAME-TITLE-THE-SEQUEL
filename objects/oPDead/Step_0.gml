@@ -1,3 +1,4 @@
+//sets the collision with the death animation object.
 if (done ==0)
 {
 	vspd = vspd +grv;
