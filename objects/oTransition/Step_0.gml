@@ -1,5 +1,5 @@
 /// @desc Progress the transition
-
+// creates the animation for the black bars in the transition effect.
 if (mode != TRANS_MODE.OFF)
 {
 	if (mode == TRANS_MODE.INTRO)
@@ -12,6 +12,7 @@ if (mode != TRANS_MODE.OFF)
 	}
 	
 	if (percent == 1.2) || (percent == 0)
+// sets the transition modes as functions that can be called.
 	{
 		switch (mode)
 		{
