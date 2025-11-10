@@ -1,3 +1,4 @@
+//activates a wite flash when enemy is hit.
 draw_self();
 
 if (flash > 0)
