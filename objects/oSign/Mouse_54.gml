@@ -1,3 +1,4 @@
+//sets the text displayed on various sign instances.
 if (point_in_circle(oPlayer.x,oPlayer.y,x,y,64)) && (!instance_exists(oText))
 {
 	with (instance_create_layer(x,y-32,layer,oText))
