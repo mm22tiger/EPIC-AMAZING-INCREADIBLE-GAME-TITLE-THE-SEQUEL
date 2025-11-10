@@ -19,6 +19,7 @@ y = clamp(y,view_h_half,room_width-view_h_half);
 
 camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
 
+// sets paralax backgrounds to follow at slightly slower rates.
 if (layer_exists("Spikes"))
 {
 	layer_x("Spikes",x/3);
