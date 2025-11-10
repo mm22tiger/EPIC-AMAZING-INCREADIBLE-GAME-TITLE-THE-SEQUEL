@@ -1,6 +1,6 @@
 vspd += grv;
  
-//Horizontal Collision
+//sets the Horizontal Collision for the enemy
 if (place_meeting(x+hspd,y,CollisionFloor))
 {
     while (!place_meeting(x+sign(hspd),y,CollisionFloor))
@@ -10,7 +10,7 @@ if (place_meeting(x+hspd,y,CollisionFloor))
     hspd = -hspd;
 }
  
-//Vertical Collision
+//sets the Vertical Collision for the enemy
 if (place_meeting(x,y + vspd,CollisionFloor))
 {
     while (!place_meeting(x,y+sign(vspd),CollisionFloor))
