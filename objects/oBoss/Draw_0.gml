@@ -1,5 +1,6 @@
 draw_self();
 
+//initiante a white flash when hit.
 if (flash > 0)
 {
 	flash--;
