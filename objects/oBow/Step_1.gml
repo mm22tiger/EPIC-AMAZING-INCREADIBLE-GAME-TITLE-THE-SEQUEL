@@ -1,3 +1,4 @@
+// sets the position and scale 
 image_xscale = 0.75;
 image_yscale = 0.75;
 x = oPlayer.x+10;
@@ -8,6 +9,7 @@ image_angle = point_direction(x,y,mouse_x,mouse_y);
 firingdelay = firingdelay - 1;
 recoil = max(0,recoil - 1);
 
+// activate the shooting function to spawn an arrow when input is recieved.
 if (mouse_check_button(mb_left)) && (firingdelay < 0)
 {
 	recoil = 4;
