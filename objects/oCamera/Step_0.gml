@@ -1,3 +1,4 @@
+//sets camera to follow the player with a slight delay.
 if (instance_exists(follow))
 {
 	xTo = follow.x;
